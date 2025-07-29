@@ -3,3 +3,5 @@ data/processed/dataset_ready_for_training.csv filter=lfs diff=lfs merge=lfs -tex
 data/raw/Fake.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/True.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/combined_news.csv filter=lfs diff=lfs merge=lfs -text
+models/*.zip filter=lfs diff=lfs merge=lfs -text
+models/*.safetensors filter=lfs diff=lfs merge=lfs -text
